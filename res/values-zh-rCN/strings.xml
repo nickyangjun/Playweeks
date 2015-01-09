@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlayWeekend</string>
+    <string name="action_settings">设置</string>
+    <string name="app_version">Ver:</string>
+    <string name="updatetitle">升级提醒</string>
+    <string name="ok">确定</string>
+    <string name="no">取消</string>
+    <string name="nosdcard">SD卡不可用，请插入SD卡</string>
+	<string name="updatefail">更新失败</string>
+	<string name="is_downloader">正在下载...</string>
+	<string name="default_page">主页</string>
+	<string name="myactivities_page">我的活动</string>
+	<string name="friend_page">朋友圈</string>
+	<string name="login_page">登录</string>
+</resources>
