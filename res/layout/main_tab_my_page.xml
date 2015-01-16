@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_default">
+
+    <LinearLayout
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        
+         >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/portrait"
+            android:textSize="20sp" />
+        <ImageView 
+            android:contentDescription="@string/_0"
+            android:id="@+id/picture_"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:gravity="right|center_vertical"
+            android:src="@drawable/ic_launcher"
+      />
+    
+      </LinearLayout>
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#d0d0d0" />
+        <LinearLayout
+        android:id="@+id/set_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/nickname"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name_"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="@string/inputname"
+            android:textColor="#7B7B7B"
+            android:textSize="20sp" />
+    </LinearLayout>
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#d0d0d0" />
+
+    <LinearLayout
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/sex"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/sex_"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/selector_male"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/male"
+                android:textColor="@drawable/selector_color_set"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-15dp"
+                android:background="@drawable/selector_female"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/female"
+                android:textColor="@drawable/selector_color_set"
+                android:textSize="15sp" />
+        </RadioGroup>
+    </LinearLayout>
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#d0d0d0" />
+   
+
+
+</LinearLayout>

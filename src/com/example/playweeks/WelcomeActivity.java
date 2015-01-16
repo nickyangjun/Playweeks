@@ -3,6 +3,8 @@ package com.example.playweeks;
 
 import java.io.File;
 
+import cn.bmob.v3.Bmob;
+
 import com.example.update.DownloadTask;
 import com.example.update.UpdateInfo;
 import com.example.update.UpdateInfoService;

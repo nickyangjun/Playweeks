@@ -15,4 +15,32 @@
 	<string name="myactivities_page">My activities</string>
 	<string name="friend_page">Friends</string>
 	<string name="login_page">Login</string>
+	<string name="cancle">取消</string>
+	<string name="truely">确定</string>
+	<string name="unlogin">对不起，您还未登录，请登录！</string>
+	<string name="login">登录</string>
+	<!--            login                      -->
+	<string name="login_title">周末一起玩</string>
+	<string name="portrait">头像</string>
+	<string name="_0">0</string>
+	<string name="nickname">昵称</string>
+	<string name="inputname">填写您的昵称</string>
+	<string name="sex">性别</string>
+	<string name="male">男</string>
+  	<string name="female">女</string>
+  	<string name="photo_src">图片来源</string>
+  	<string name="take_photo">拍照</string>
+  	<string name="gallery">相册</string>
+  	<string name="tv_pos">深圳市南山区</string>
+  	<string name="logintip">请选择登录方式：</string>
+  	<string name="sign">注册</string>
+  	<string name="login_later">稍后登录</string>
+  	
+  	
+  	
+  	<!--             main page -->
+  	<string name="recom_activites">推荐活动</string>
+    <string name="local_activites">周边活动</string>
+	
+	
 </resources>

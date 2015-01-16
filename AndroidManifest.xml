@@ -3,18 +3,28 @@
     package="com.example.playweeks"
     android:versionCode="1"
     android:versionName="1.0.0" >
+	<!-- bmob -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
     <application
+        android:name="com.example.playweeks.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        android:name="com.example.playweeks.MyApplication" >
-         <activity
+        android:theme="@style/AppTheme" >
+        <activity
             android:name="com.example.playweeks.WelcomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -30,6 +40,8 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+         <activity
+            android:name="com.example.playweeks.LoginActivity"></activity>
     </application>
 
 </manifest>
